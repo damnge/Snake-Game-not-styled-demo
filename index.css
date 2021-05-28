@@ -1,0 +1,52 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 0 auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+    transition: all 0.1s;
+}
+
+.apple {
+    opacity: 0;
+    background-image:url("apple.svg");
+    animation: fadeIn 0.2s forwards;
+}
+
+.turtle {
+    opacity: 0;
+    background-image:url("turtle.svg");
+    animation: fadeIn 0.2s forwards;
+}
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+}
