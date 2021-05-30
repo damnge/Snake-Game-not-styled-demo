@@ -1,6 +1,6 @@
 # Demo of Snake Game not styled
 
-Demo of a simple game called a snake, not styled yet.
+Demo of Snake, it's not styled yet.
 
 Created with pure JavaScript with the option to Start/Pause and Restart the game.
 
